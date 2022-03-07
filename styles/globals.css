@@ -14,3 +14,9 @@ a {
 * {
   box-sizing: border-box;
 }
+
+ul {
+  margin: 0;
+  /* TODO: more reliable and self-documenting text-centering */
+  padding-left: 20px;
+}
