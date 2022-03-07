@@ -36,6 +36,9 @@ const config = {
       ],
       'newlines-between': 'always',
     }],
+
+    'react/jsx-indent': ['warn', tabWidth],
+    'react/jsx-one-expression-per-line': ['warn', { allow: 'literal' }],
   },
 }
 
