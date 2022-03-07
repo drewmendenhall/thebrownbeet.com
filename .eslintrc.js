@@ -8,6 +8,8 @@ const config = {
   ],
 
   rules: {
+    // Suggestions
+    'quote-props': ['warn', 'consistent-as-needed'],
     // Layout & Formatting
     'block-spacing': ['warn', 'never'],
     'comma-dangle': ['warn', 'always-multiline'],
