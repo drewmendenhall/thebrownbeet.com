@@ -1,3 +1,5 @@
+const tabWidth = 2
+
 /** @type {import('eslint').Linter.Config} */
 const config = {
   extends: [
@@ -6,6 +8,20 @@ const config = {
   ],
 
   rules: {
+    // Layout & Formatting
+    'block-spacing': ['warn', 'never'],
+    'comma-dangle': ['warn', 'always-multiline'],
+    'eol-last': 'warn',
+    'indent': ['warn', tabWidth],
+    'jsx-quotes': 'warn',
+    'max-len': ['warn', { tabWidth }],
+    'no-trailing-spaces': 'warn',
+    'object-curly-spacing': ['warn', 'always'],
+    'padded-blocks': ['warn', 'never'],
+    'prefer-arrow-callback': 'warn',
+    'quotes': ['warn', 'single'],
+    'space-before-blocks': 'warn',
+
     'import/order': ['warn', {
       'alphabetize': { order: 'asc' },
       'groups': [
